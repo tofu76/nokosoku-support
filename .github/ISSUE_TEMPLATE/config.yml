@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: プライバシーポリシー
+    url: https://tofu76.github.io/nokosoku-support/privacy.html
+    about: No梗塞が扱う情報と、その取り扱いです。
+  - name: サポート（使い方・よくある質問）
+    url: https://tofu76.github.io/nokosoku-support/support.html
+    about: 使い方とよくある質問です。まずこちらをご覧ください。
