@@ -1,17 +1,13 @@
-# nokosoku-support
+# nokosoku-support（移転しました）
 
-iPhone アプリ「No梗塞」のサポートページ・プライバシーポリシーの公開用リポジトリです。ご意見・お問い合わせは Issue で受け付けています。
+No梗塞のサポートページ・プライバシーポリシーと、ご意見・お問い合わせの窓口は、複数のアプリをまとめた公開リポジトリ **[tofu76/app-support](https://github.com/tofu76/app-support)** へ移りました。
 
-- サポート: https://tofu76.github.io/nokosoku-support/support.html
-- プライバシーポリシー: https://tofu76.github.io/nokosoku-support/privacy.html
-- ご意見・お問い合わせ: https://github.com/tofu76/nokosoku-support/issues/new?template=feedback.yml
+- サポート: https://tofu76.github.io/app-support/nokosoku/support.html
+- プライバシーポリシー: https://tofu76.github.io/app-support/nokosoku/privacy.html
+- ご意見・お問い合わせ: https://github.com/tofu76/app-support/issues/new?template=feedback-nokosoku.yml
+
+このリポジトリの `index.html`・`support.html`・`privacy.html` は、上の新しい URL への転送ページです（古い URL を開いても、新しいページに移ります）。
+
+`.github/ISSUE_TEMPLATE/feedback.yml` は、No梗塞のアプリの「ご意見・ご要望」画面がこのフォームを事前入力つきで開くため、アプリが新しい URL に変わるまで残しています。それまでに届いた Issue には、ここで返事をします。
 
 Issue の内容は公開されます。名前・連絡先・健康の詳しい内容は書かないでください。土曜・日曜に確認してお返事します（平日はお返事できません）。
-
-## ページの公開（GitHub Pages）
-
-Settings › Pages › Build and deployment › Source を「Deploy from a branch」にし、Branch を `main` / `(root)` にして Save します。数分後に https://tofu76.github.io/nokosoku-support/ で開きます。
-
-## ページを直すとき
-
-ページの正本は、非公開の本体リポジトリ（`specs/release/legal/` の `privacy_policy.md`・`support.md`）にあります。このリポジトリの `index.html`・`privacy.html`・`support.html` はその写しなので、ここを直接直さないでください（次の公開で上書きされます）。
